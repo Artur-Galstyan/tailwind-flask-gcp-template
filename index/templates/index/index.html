@@ -1,0 +1,13 @@
+{% extends "base_template.html" %}
+
+{% block main %}
+
+    This is the main page.
+    
+    Go to the <a href="{{ url_for('index_bp.about') }}">about page.</a>
+
+    <br> <br>
+
+    Or you can visit the <a href="{{ url_for('blog_bp.home') }}">blog!</a>
+
+{% endblock %}

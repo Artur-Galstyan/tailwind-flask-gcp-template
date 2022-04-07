@@ -1,1 +1,2 @@
-# tailwind-flask-gcp-template
+# Tailwind + Flask + Google Cloud Platform Template
+
