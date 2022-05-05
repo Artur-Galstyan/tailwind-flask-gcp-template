@@ -10,7 +10,7 @@ put the credentials JSON that you get from Google. You also need to install the 
 to prepare your project. 
 
 On every push to the main branch, your app is updated. If you want to change that, go into the GitHub workflow
-and change the ```main.yml``` file.
+and change the ```main.yml``` file. Notice, that on your first run, Google might ask you to enable some API. You will see the link in the failed run. Click on it and enable whatever Google wants you to enable.
 
 Run the command ```npm run watch-css``` to run the Tailwind Watcher. Configure the file ```tailwind.config.js```
 according to your specific needs. 
